@@ -1,9 +1,9 @@
 let arr = [14,12,70,15,99,65,21,90];
-let X = 85;
+let X = 97;
 let newTotal, i, j;
 let sumElements = [];
 //Sum found between index 1 and 3
-//Elements are 12, 17 and 15
+//Elements are 12, 70 and 15
 
 for(i = 0; i < arr.length; i++){
     newTotal = arr[i];
