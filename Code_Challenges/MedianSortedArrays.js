@@ -16,9 +16,9 @@ function MedianSortedArrays(n, m){
         }else{
             median = (mergedArray[mid] + mergedArray[mid-1])/2;
         }
-        console.log('Here are the numbers we are combining: ' + mergedArray[mid]+' '+ mergedArray[mid-1]);
         return median;
     }else
     return listsizeError;
 }
-console.log(MedianSortedArrays(5, 5));
+console.log('The median is ' + MedianSortedArrays(5, 5));
+console.log('The median is ' + MedianSortedArrays(10, 13));
