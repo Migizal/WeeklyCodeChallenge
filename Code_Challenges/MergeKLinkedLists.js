@@ -34,7 +34,7 @@ The sum of lists[i].length will not exceed 104.*/
 
 let mergeKLists = function (lists) {
     // Base condition
-    if (lists === undefined || lists.length === 0 || lists.length > 140) {
+    if (lists === undefined || lists.length === 0 || lists.length > 104) {
         return null;
     }
     return mergeLists(lists, 0, lists.length - 1);
